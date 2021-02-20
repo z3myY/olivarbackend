@@ -1,0 +1,26 @@
+{
+  "name": "olivarbackend",
+  "version": "1.0.0",
+  "description": "Backend de una aplicación web Fullstack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "webapp",
+    "backend",
+    "fullstack"
+  ],
+  "author": "José Miguel González Lozada",
+  "license": "GPL",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.17"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
